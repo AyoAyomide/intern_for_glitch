@@ -1,0 +1,29 @@
+/* animation for pages */
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+@keyframes flowRight {
+    0% {
+        right:0px;
+    }
+    50%{
+        right: 2em;
+    }
+    100% {
+       right: 1em;
+    }
+}
